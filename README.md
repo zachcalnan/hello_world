@@ -28,5 +28,10 @@ Zach = ("pop", "rock", "soul", "hard rock", "rock", "R&B", "rock", "disco")
 set = set(Zach)
 print('rock'in set)
 
+#using the & function to find the intersect 
 
+album_set1 = set(["Thriller", 'AC/DC', 'Back in Black'])
+album_set2 = set([ "AC/DC", "Back in Black", "The Dark Side of the Moon"])
+intersection = album_set1 & album_set2
+intersection 
 
