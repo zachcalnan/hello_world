@@ -33,5 +33,13 @@ print('rock'in set)
 album_set1 = set(["Thriller", 'AC/DC', 'Back in Black'])
 album_set2 = set([ "AC/DC", "Back in Black", "The Dark Side of the Moon"])
 intersection = album_set1 & album_set2
-intersection 
+print(intersection) 
+
+#to find the difference in data sets use the .difference function
+
+album_set1 = set(["Thriller", 'AC/DC', 'Back in Black'])
+album_set2 = set([ "AC/DC", "Back in Black", "The Dark Side of the Moon"])
+intersection = album_set1 & album_set2
+print(album_set1.difference(album_set2)) 
+
 
