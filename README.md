@@ -42,4 +42,15 @@ album_set2 = set([ "AC/DC", "Back in Black", "The Dark Side of the Moon"])
 intersection = album_set1 & album_set2
 print(album_set1.difference(album_set2)) 
 
+#intersection of two circles can be found also with the below .intersection function
 
+album_set1.intersection(album_set2)   
+
+#union contains all elements within both of the circles
+
+album_set1.union(album_set2)
+
+#to see if one circle is a subset ot superset of another circle use the following functions
+
+set(album_set1).issuperset(album_set2)   
+set(album_set2).issubset(album_set1)   
