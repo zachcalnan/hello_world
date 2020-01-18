@@ -1,7 +1,5 @@
-# Lists
+# Conditions and Branching
 
-#to add to a list
-
-.append
+#
 
 
