@@ -1,6 +1,6 @@
 #Loops
 
-# FOR Loops - allow you to execute a block code multiple times
+# FOR Loops - allow you to execute a block of code multiple times
 
 dates = [1982, 1980, 1973]
 N = len(dates)
@@ -28,16 +28,14 @@ squares=['red', 'yellow', 'green', 'purple', 'blue']
 for i, square in enumerate(squares):
     print(i, square)
     
-#While loop - used to keep executing code until a certian condiiton is not met
+# While loop - used to keep executing code until a certian condiiton is not met
 
 dates = [1982, 1980, 1973, 2000]
 
 i = 0
 year = 0
-
 while(year != 2000):
     year = dates[i]
     i = i + 1
-    print(year)
-
+    print(year)  
 print("It took ", i, "repetitions to get out of loop.")
