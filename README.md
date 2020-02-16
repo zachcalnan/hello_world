@@ -14,4 +14,4 @@ df.info() #tells us what data tyes there are
 pd.set_option('display.max_rows', 1460) #to display all the rows in the DF
 pd.set_option('display.max_columns', 1460) #to display all the columns in the DF
 df.head(5) #shows the first 5 rows
-df.tail(5) #shows the last 5 rows
+df.tail(5) #shows the last 5 rows 
